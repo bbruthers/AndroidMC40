@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vantage License Scanner</string>
+    <string name="action_settings">preferences</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_control">ControlActivity</string>
+    <string name="title_activity_tourn_assign_players">Vantage License Scanner</string>
+    <string name="intentAction">net.vantagesystems.mobileplayermanagerrw01.RECVR</string>
+    <string name="title_activity_game_maint">GameMaintActivity</string>
+    <string name="title_activity_game_mask">GameMaskActivity</string>
+    <string name="title_activity_service_maintenance">ServiceMaintenanceActivity</string>
+    <string name="title_activity_preference">PreferenceActivity</string>
+    <string name="title_activity_dl_details">dlDetails</string>
+    <string name="title_activity_manual_search">ManualSearchActivity</string>
+
+</resources>

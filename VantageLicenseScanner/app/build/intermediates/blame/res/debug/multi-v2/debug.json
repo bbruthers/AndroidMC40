@@ -1,0 +1,173 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/res/values-v14/styles.xml",
+                    "from": {
+                        "startLines": "7",
+                        "startColumns": "4",
+                        "startOffsets": "225",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "373"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "201"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/build/intermediates/res/merged/debug/values-sw720dp-land-v13_values-sw720dp-land-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/res/values-sw720dp-land/dimens.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "205",
+                        "endColumns": "58",
+                        "endOffsets": "259"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "58",
+                        "endOffsets": "109"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "6",
+                        "startColumns": "4",
+                        "startOffsets": "182",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "316"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "187"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/build/intermediates/res/merged/debug/values-w820dp-v13_values-w820dp-v13.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/res/values-w820dp/dimens.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "291",
+                        "endColumns": "57",
+                        "endOffsets": "344"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/res/values/dimens.xml",
+                    "from": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "92,151",
+                        "endColumns": "57,55",
+                        "endOffsets": "145,202"
+                    },
+                    "to": {
+                        "startLines": "28,29",
+                        "startColumns": "4,4",
+                        "startOffsets": "826,884",
+                        "endColumns": "57,55",
+                        "endOffsets": "879,935"
+                    }
+                },
+                {
+                    "source": "/Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/res/values/strings_activity_preferences.xml",
+                    "from": {
+                        "startLines": "17,22,32,40,14,9,29,6,52,57,16,13,54,56,8,31,49,59,1",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "678,839,1163,1413,525,310,1027,161,1763,1981,591,460,1832,1924,218,1094,1633,2038,16",
+                        "endLines": "21,26,39,47,14,11,29,6,52,57,16,13,54,56,8,31,49,59,1",
+                        "endColumns": "19,19,19,19,64,13,65,55,67,55,86,64,90,56,91,68,80,54,63",
+                        "endOffsets": "834,975,1408,1627,585,454,1088,212,1826,2032,673,520,1918,1976,305,1158,1709,2088,75"
+                    },
+                    "to": {
+                        "startLines": "2,7,12,20,34,35,38,39,40,41,42,43,44,45,46,47,48,49,56",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,216,357,607,1200,1265,1414,1480,1536,1604,1660,1747,1812,1903,1960,2052,2121,2202,2681",
+                        "endLines": "6,11,19,27,34,37,38,39,40,41,42,43,44,45,46,47,48,49,56",
+                        "endColumns": "19,19,19,19,64,13,65,55,67,55,86,64,90,56,91,68,80,54,63",
+                        "endOffsets": "211,352,602,821,1260,1409,1475,1531,1599,1655,1742,1807,1898,1955,2047,2116,2197,2252,2740"
+                    }
+                },
+                {
+                    "source": "/Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "4,3,5,8,6,13,9,10,14,12,11,7",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "121,59,178,389,232,789,480,553,854,715,624,300",
+                        "endColumns": "55,60,52,89,66,63,71,69,77,72,89,87",
+                        "endOffsets": "172,115,226,474,294,848,547,618,927,783,709,383"
+                    },
+                    "to": {
+                        "startLines": "30,31,32,33,50,51,52,53,54,55,57,58",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "940,996,1057,1110,2257,2324,2388,2460,2530,2608,2745,2835",
+                        "endColumns": "55,60,52,89,66,63,71,69,77,72,89,87",
+                        "endOffsets": "991,1052,1105,1195,2319,2383,2455,2525,2603,2676,2830,2918"
+                    }
+                },
+                {
+                    "source": "/Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "59,66",
+                        "startColumns": "4,4",
+                        "startOffsets": "2923,3214",
+                        "endLines": "65,68",
+                        "endColumns": "12,12",
+                        "endOffsets": "3209,3369"
+                    }
+                }
+            ]
+        }
+    ]
+}

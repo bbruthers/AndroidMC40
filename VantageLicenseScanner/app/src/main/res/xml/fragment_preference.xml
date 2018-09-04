@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="VBS License Parser">
+
+        <EditTextPreference
+            android:key="lpsURL"
+            android:title="VBS Web Service"
+            android:summary="Location of server to send raw ID data. "
+            android:inputType="numberDecimal"
+            android:digits="0123456789."
+            android:defaultValue="63.142.245.33"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,229 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#d4d4d4"
+    android:id="@+id/relView"
+    android:layout_centerVertical="true"
+    tools:context=".LicenseScanActivity"
+    android:clickable="false"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="#F0F8FF"
+        android:id="@+id/viewTop"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="#F0F8FF"
+        android:id="@+id/middleView"
+        android:layout_above="@+id/bottomView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="35dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dip"
+        android:background="#F0F8FF"
+        android:id="@+id/bottomView"
+        android:layout_above="@+id/imViewXMark"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imViewXMark"
+        android:src="@mipmap/ic_xmark"
+        android:minHeight="100dp"
+        android:layout_alignTop="@+id/imViewCheck"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imViewCheck"
+        android:src="@mipmap/ic_checkmark"
+        android:minHeight="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imViewLogo"
+        android:src="@mipmap/ic_logo"
+        android:layout_above="@+id/viewTop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Vantage Age Verification Utility"
+        android:id="@+id/tvVan"
+        android:textSize="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="© Vantage Business Systems Inc."
+        android:id="@+id/textView"
+        android:textSize="12dp"
+        android:layout_below="@+id/tvVan"
+        android:layout_alignRight="@+id/cbBanned"
+        android:layout_alignEnd="@+id/cbBanned" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvNameResp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Name: "
+        android:id="@+id/tvName"
+        android:layout_below="@+id/viewTop"
+        android:layout_toRightOf="@+id/tvNameResp"
+        android:layout_toEndOf="@+id/tvNameResp"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Patron Age: "
+        android:id="@+id/tvAge"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/tvName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Birthdate: "
+        android:id="@+id/tvBirthdate"
+        android:layout_below="@+id/tvAge"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Under"
+        android:id="@+id/cbUnderage"
+        android:layout_above="@+id/bottomView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Banned"
+        android:id="@+id/cbBanned"
+        android:checked="false"
+        android:layout_above="@+id/imViewXMark"
+        android:layout_alignRight="@+id/middleView"
+        android:layout_alignEnd="@+id/middleView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:id="@+id/bDetails"
+        android:layout_alignBottom="@+id/imViewXMark"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:onClick="TransistToDetailsActivity"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expired"
+        android:id="@+id/cbExpired"
+        android:checked="false"
+        android:layout_above="@+id/imViewXMark"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etName"
+        android:layout_alignBottom="@+id/tvName"
+        android:layout_alignLeft="@+id/cbExpired"
+        android:layout_alignStart="@+id/cbExpired" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etAge"
+        android:layout_alignBottom="@+id/tvAge"
+        android:layout_toRightOf="@+id/tvAge"
+        android:layout_toEndOf="@+id/tvAge" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etBirth"
+        android:layout_alignBottom="@+id/tvBirthdate"
+        android:layout_toRightOf="@+id/tvAge"
+        android:layout_toEndOf="@+id/tvAge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Expiration: "
+        android:id="@+id/tvExp"
+        android:layout_below="@+id/tvBirthdate"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/etExpir"
+        android:layout_alignBottom="@+id/tvExp"
+        android:layout_toRightOf="@+id/tvAge"
+        android:layout_toEndOf="@+id/tvAge" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Scan license barcode using side buttons"
+        android:id="@+id/tvInstruc"
+        android:textSize="10dp"
+        android:layout_above="@+id/etName"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\DGS\Desktop\DGS_SVN\LicenseScannerApp\VantageLicenseScanner\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="7819e6903c03b9bec5103174d8d99d7cd07d3f3e">
+        <dex dex="C:\Users\DGS\Desktop\DGS_SVN\LicenseScannerApp\VantageLicenseScanner\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_5d10b9ea19ff330427742c0e85a85b4837764943\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\DGS\Desktop\DGS_SVN\LicenseScannerApp\VantageLicenseScanner\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\DGS\Desktop\DGS_SVN\LicenseScannerApp\VantageLicenseScanner\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.0_68bf75b3a7f9cbf6f18875cc960e63356c4ad65c\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\DGS\Desktop\DGS_SVN\LicenseScannerApp\VantageLicenseScanner\app\libs\commons-io-2.5.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="b24f6678d458e65f08113a079e3724581eca1184">
+        <dex dex="C:\Users\DGS\Desktop\DGS_SVN\LicenseScannerApp\VantageLicenseScanner\app\build\intermediates\transforms\dex\debug\folders\1000\2\commons-io-2.5_098e56471bbb46e4569bfa6de46a12b425992eab\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\DGS\Desktop\DGS_SVN\LicenseScannerApp\VantageLicenseScanner\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="d13912d255e7447df9504caa4b0921e8a5dfcca8">
+        <dex dex="C:\Users\DGS\Desktop\DGS_SVN\LicenseScannerApp\VantageLicenseScanner\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_5e38eae731fc7b247baeda948c8d6d94faa404b5\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\DGS\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\DGS\Desktop\DGS_SVN\LicenseScannerApp\VantageLicenseScanner\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.0_45a9e322f619eff218363d9ffdf5c6f1a980155d\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\DGS\Desktop\DGS_SVN\LicenseScannerApp\VantageLicenseScanner\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\DGS\Desktop\DGS_SVN\LicenseScannerApp\VantageLicenseScanner\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.0_7d94881902b7da787f599c918e8415e7c0cb4bc6\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\DGS\Desktop\DGS_SVN\LicenseScannerApp\VantageLicenseScanner\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\DGS\Desktop\DGS_SVN\LicenseScannerApp\VantageLicenseScanner\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_333b29e0c85ac309cba18cad7f25310411628494\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\DGS\Desktop\DGS_SVN\LicenseScannerApp\VantageLicenseScanner\app\libs\joda-time-2.9.3.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="9e46be514a4ed60bcfbaaba88a3c668cf30476ab">
+        <dex dex="C:\Users\DGS\Desktop\DGS_SVN\LicenseScannerApp\VantageLicenseScanner\app\build\intermediates\transforms\dex\debug\folders\1000\2\joda-time-2.9.3_fa19b97e20ffa81e371fdb4f0d606430d6dfa68d\classes.dex" />
+    </item>
+
+</items>

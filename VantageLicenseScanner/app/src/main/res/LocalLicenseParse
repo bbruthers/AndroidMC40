@@ -1,0 +1,226 @@
+String[] saLicenseInfo = {};
+				saLicenseInfo = strDL.split("\n");
+
+				for(int it = 0; it < saLicenseInfo.length; it++)
+				{
+					//DL #
+					if(saLicenseInfo[it].contains("DAQ")) //license ID
+					{
+						licenseNumber = saLicenseInfo[it].substring(saLicenseInfo[it].indexOf("DAQ",2));
+						licenseNumber = licenseNumber.trim();
+						licenseNumber = licenseNumber.replace("DAQ","");
+					}
+					else if(saLicenseInfo[it].startsWith("DAC")) //first name
+					{
+						firstName = saLicenseInfo[it].replace("DAC","");
+					}
+					else if(saLicenseInfo[it].startsWith("DCS")) //family name
+					{
+						famName = saLicenseInfo[it].replace("DCS","");
+					}
+					else if(saLicenseInfo[it].startsWith("DAD")) //middle name
+					{
+						midName = saLicenseInfo[it].replace("DAD","");
+					}
+					else if(saLicenseInfo[it].startsWith("DBB")) //birthdate string, will have to take formatting into consideration if canadian
+					{
+						birthDate = saLicenseInfo[it].replace("DBB","");
+
+						StringBuffer sbDateTemp = new StringBuffer(birthDate);
+						sbDateTemp.insert(sbDateTemp.length()-4,"/"); //year, day separator
+						sbDateTemp.insert(sbDateTemp.length()-7,"/"); //month, day separator
+						birthDate = sbDateTemp.toString();
+					}
+					else if(saLicenseInfo[it].startsWith("DBD")) //license issue date
+					{
+						docIssueDate = saLicenseInfo[it].replace("DBD","");
+					}
+					else if(saLicenseInfo[it].startsWith("DBA")) //doc expiration date
+					{
+						docExpDate = saLicenseInfo[it].replace("DBA","");
+					}
+					else if(saLicenseInfo[it].startsWith("DAG")) //street
+					{
+						street = saLicenseInfo[it].replace("DAG","");
+						street = street.trim();
+					}
+					else if(saLicenseInfo[it].startsWith("DAI")) //city
+					{
+						city = saLicenseInfo[it].replace("DAI","");
+						city = city.trim();
+					}
+					else if(saLicenseInfo[it].startsWith("DAJ")) //state
+					{
+						state = saLicenseInfo[it].replace("DAJ","");
+						state = state.trim();
+					}
+					else if(saLicenseInfo[it].startsWith("DAK")) //postcode
+					{
+						postCode = saLicenseInfo[it].replace("DAK","");
+						postCode = postCode.trim();
+
+						if(postCode.length() == 9)
+						{
+							StringBuffer sbPostCodeTemp = new StringBuffer(postCode);
+							sbPostCodeTemp.insert(sbPostCodeTemp.length()-4,"-");
+							postCode = sbPostCodeTemp.toString();
+						}
+					}
+					else if(saLicenseInfo[it].startsWith("DAY")) //eye color
+					{
+						eyeColor = saLicenseInfo[it].replace("DAY","");
+					}
+					else if(saLicenseInfo[it].startsWith("DBC")) //gender code
+					{
+						String tempGender = saLicenseInfo[it].replace("DBC","");
+						int iTempGender = Integer.parseInt(tempGender);
+
+						if(iTempGender == 0) //female
+						{
+							gender = "F";
+						}
+						else if(iTempGender == 1) //male
+						{
+							gender = "M";
+						}
+						else //unknown
+						{
+							gender = "U";
+						}
+					}
+
+				}
+
+				Log.d("First Name: ", firstName);
+				Log.d("Middle Name: ", midName);
+				Log.d("Last Name: ", famName);
+				Log.d("License: ", licenseNumber);
+				Log.d("Birthdate: ", birthDate);
+				Log.d("Doc Issue Date: ", docIssueDate);
+				Log.d("Exp date: ", docExpDate);
+				Log.d("Street: ",street);
+				Log.d("City: ", city);
+				Log.d("Postcode: ", postCode);
+				Log.d("Gender: ", gender);
+
+
+
+				bConformingDecodeData = true; // tag as comply !!!!!!
+
+				/*	TextView tvInstructText = (TextView) findViewById(R.id.tvInstructText);
+					TextView tvResultText = (TextView) findViewById(R.id.tvResultText);
+
+					tvInstructText.setText("SWIPE PLAYER CARD");
+					tvResultText.setText("MACID: " + strExamine1);
+					strPreserveMACID = strExamine1; */
+
+
+////*******************
+public int GetPatronAge(String ba)
+	{
+		int age = 0;
+
+		try
+		{
+			SimpleDateFormat sdfBirth = new SimpleDateFormat("MM/dd/yyyy");
+			Date preFormatBirthdate = sdfBirth.parse(ba);
+			Calendar birthCalendar = Calendar.getInstance();
+			Calendar presentCalendar = Calendar.getInstance();
+			int bMonth = 0, bYear = 0, currMonth = 0, currYear = 0;
+
+			presentCalendar.getTimeZone();
+			birthCalendar.setTime(preFormatBirthdate);
+
+			//birth month, year
+			bMonth = birthCalendar.get(birthCalendar.MONTH);
+			bYear = birthCalendar.get(birthCalendar.YEAR);
+			//current month, year
+			currMonth = presentCalendar.get(presentCalendar.MONTH);
+			currYear = presentCalendar.get(presentCalendar.YEAR);
+
+			age = ((currYear * 12 + currMonth) - (bYear * 12 + bMonth)) / 12;
+		}
+		catch (Exception ex)
+		{
+
+		}
+
+		return age;
+	}
+
+	private class ServerPing extends AsyncTask<String, Integer, Boolean>
+    	{
+    		protected void onPreExecute()
+    		{
+    			// Setup is done here
+    		}
+
+    		// @Override
+    		protected Boolean doInBackground(String... params)
+    		{
+    			boolean bServerStatus = false;
+
+    			try
+    			{
+    				URL url = new URL(params[0]);
+    				HttpURLConnection connection = (HttpURLConnection)url.openConnection();
+
+    				switch(connection.getResponseCode())
+    				{
+    					case HttpURLConnection.HTTP_OK:
+    						Toast.makeText(getApplicationContext(),"Connection established", Toast.LENGTH_SHORT);
+    				}
+
+    			}
+    			catch(Exception ex)
+    			{
+
+    			}
+
+    			return bServerStatus;
+    		}
+
+    		protected void onPostExecute(Boolean serverTask)
+    		{
+    			if(serverTask)
+    			{
+    				Toast.makeText(getApplicationContext(),"Server available",Toast.LENGTH_LONG);
+    			}
+    			else
+    			{
+    				Toast.makeText(getApplicationContext(),"Server unavailable",Toast.LENGTH_LONG);
+    			}
+    		}
+
+    		protected void onProgressUpdate(Integer... params)
+    		{
+    			// Update a progress bar here, or ignore it, it's up to you
+    		}
+
+    		protected void onCancelled()
+    		{
+
+    		}
+    	}
+
+
+    	public final static String EXTRA_MESSAGE = "com.motorolasolutions.emdk.sample.dwdemosample.MESSAGE";
+
+        	// Let's define the MSR intent strings (in case we want to use these in the
+        	// future)
+        	private static final String MSR_DATA_TAG = "com.motorolasolutions.emdk.datawedge.msr_data";
+        	private static final String MSR_TRACK1_TAG = "com.motorolasolutions.emdk.datawedge.msr_track1";
+        	private static final String MSR_TRACK2_TAG = "com.motorolasolutions.emdk.datawedge.msr_track2";
+        	private static final String MSR_TRACK3_TAG = "com.motorolasolutions.emdk.datawedge.msr_track3";
+        	private static final String MSR_TRACK1_STATUS_TAG = "com.motorolasolutions.emdk.datawedge.msr_track1_status";
+        	private static final String MSR_TRACK2_STATUS_TAG = "com.motorolasolutions.emdk.datawedge.msr_track2_status";
+        	private static final String MSR_TRACK3_STATUS_TAG = "com.motorolasolutions.emdk.datawedge.msr_track3_status";
+
+        	// Let's define the API intent strings for the soft scan trigger
+        	private static final String ACTION_SOFTSCANTRIGGER = "com.motorolasolutions.emdk.datawedge.api.ACTION_SOFTSCANTRIGGER";
+        	private static final String EXTRA_PARAM = "com.motorolasolutions.emdk.datawedge.api.EXTRA_PARAMETER";
+        	private static final String DWAPI_START_SCANNING = "START_SCANNING";
+        	private static final String DWAPI_STOP_SCANNING = "STOP_SCANNING";
+        	private static final String DWAPI_TOGGLE_SCANNING = "TOGGLE_SCANNING";
+
+        	private static final String DECODE_DATA_TAG = "com.motorolasolutions.emdk.datawedge.decode_data";

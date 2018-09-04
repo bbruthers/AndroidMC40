@@ -1,0 +1,123 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:2:1-50:12
+MERGED from [com.android.support:support-v4:22.2.0] /Users/Brett/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.0.aar/909c8162efc75f3514a6bf233ef00df0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/Brett/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/e56a8338353677ac282def2e86a5b018/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:2:1-50:12
+	package
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:3:5-55
+		INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:22.2.0] /Users/Brett/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.0.aar/909c8162efc75f3514a6bf233ef00df0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.0] /Users/Brett/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.0.aar/909c8162efc75f3514a6bf233ef00df0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/Brett/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/e56a8338353677ac282def2e86a5b018/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/Brett/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/e56a8338353677ac282def2e86a5b018/AndroidManifest.xml:20:5-43
+INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:14:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:15:22-77
+application
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:17:5-48:19
+MERGED from [com.android.support:support-v4:22.2.0] /Users/Brett/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.0.aar/909c8162efc75f3514a6bf233ef00df0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.0] /Users/Brett/.gradle/caches/transforms-1/files-1.1/support-v4-22.2.0.aar/909c8162efc75f3514a6bf233ef00df0/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:20:9-41
+	android:largeHeap
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:22:9-33
+	android:icon
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:19:9-39
+	android:allowBackup
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:21:9-40
+activity#net.vantagesystems.VantageLicenseScanner.LicenseScanActivity
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:23:9-38:20
+	android:screenOrientation
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:28:13-49
+	android:label
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:26:13-72
+	android:launchMode
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:27:13-44
+	android:configChanges
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:25:13-63
+	android:name
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:24:13-48
+intent-filter#action:name:android.intent.action.MAIN+action:name:net.vantagesystems.mobileplayermanagerrw01.RECVR+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:29:13-37:29
+action#android.intent.action.MAIN
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:32:27-74
+action#net.vantagesystems.mobileplayermanagerrw01.RECVR
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:34:17-91
+	android:name
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:34:25-88
+category#android.intent.category.DEFAULT
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:36:27-73
+activity#net.vantagesystems.VantageLicenseScanner.dlDetailsActivity
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:39:9-43:20
+	android:screenOrientation
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:42:13-49
+	android:label
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:41:13-62
+	android:name
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:40:13-46
+activity#net.vantagesystems.VantageLicenseScanner.AppPreferenceActivity
+ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:44:9-47:61
+	android:screenOrientation
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:47:13-49
+	android:label
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:46:13-40
+	android:name
+		ADDED from /Users/Brett/Desktop/mobileapps/InterviewUpload/AndroidMC40Final/AndroidMC40/VantageLicenseScanner/app/src/main/AndroidManifest.xml:45:13-50
